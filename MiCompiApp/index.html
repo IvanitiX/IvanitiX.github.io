@@ -180,12 +180,104 @@
                      </ul>
                      <br><br>
                      <h3>¿Cómo salió la idea?</h3>
+                     <span>Debido a lo sucedido en estos tiempos, se veían por la televisión o Internet maneras de ayudar a los más mayores, o simplemente a quienes no podían ni salir por estar contagados.</span>
+                     <span>Han habido varias iniciativas por lo que queríamos plasmarlo en un proyecto de aplicación. Con ello, hicimos este mapa mental con lo que se hizo en un brainstorming previo:</span>
+                     <br>
+                     <img src="images/Mapa.png" alt="Mapa mental" width="75%">
                      <br><br>
                      <h3>MiCompi y las Metodologías Ágiles</h3>
+                     <span>En este proyecto se ha optado por usar Metodologías Ágiles para desarrollar un boceto definido de la aplicación utilizando programas como JustInMind.</span>
+                     <span>A la hora de hacer el desarrollo en general el flujo de trabajo ha sido fluido una vez se haya tenido definido la visión, las Historias de Usuario y el Product Backlog de este.</span>
+                     <span>Sin embargo, durante el proceso se han ido viendo ciertas cuestiones que han afectado ligeramente a este desarrollo y que iremos describiendo en los siguientes puntos.</span>
                      <br><br>
                      <h3>Estudiando el entorno: Personas y escenarios</h3>
+                     <span>Lo primero que hemos pensado es: ¿Qué necesitan los usuarios? ¿Qué puede pasar en la app? ¿Cómo debería responder el sistema ante todo lo que suceda?</span>
+                     <span>Para ello se ha optado por hacer una serie de personas y escenarios donde se podría evaluar las funcionalidades.</span>
+                     <span>Como muestra, dejaremos una persona y su escenario asignado.</span>
+                     <br><br><br>
+                     <div style="display: block; margin-bottom:3%;">
+                        <img src="images/Persona.png" alt="Plantilla persona" style="float: left; width:50%">
+                        <img src="images/Escenario.png" alt="Plantilla escenario" style="float: left; width:50%">
+                     </div>
+                     <div style="clear: both;"></div>
                      <br><br>
+
                      <h3>La visión del proyecto</h3>
+                     <span>El proyecto se basa principalmente en la creación de un servicio de ayuda a personas con distintas necesidades, realidades y capacidades con el objetivo de proporcionar soporte ante múltiples tipos de actividades y en diferentes secciones de trabajo.</span>
+                     <br><span>La aplicación trataría de solucionar el problema de la soledad y dependencia de personas, ayudándoles a conectar con otras personas que las puedan ayudar. Dicha aplicación se desarrolla sobre un nuevo mercado en ciernes y enfocada a las personas.</span>
+                     <br><span> No se crea la aplicación sobre una empresa con sus procesos de negocios ya existentes. La aplicación se crea de forma unitaria y es esta la que genera un nuevo modelo de negocio, este modelo de negocio son las distintas actividades orientadas a solventar el problema planteado. Estas son actividades (planificarlas, apuntarte), voluntarios (solicitarlos, apuntarse como uno de ellos), valoración de voluntarios y sistema de comunicación entre usuarios. </span>
+                     <br><span>Existen distintas aplicaciones que podrían resultar similares a MiCompi en el mercado. Quizás la más parecida es Te Ayudo, una app disponible para iOS y Android, cuya premisa es que las personas se ayuden entre ellas, pero de una manera muy general.  MiCompi está más orientado, por así decirlo, a categorías, mientras que esta otra app es menos específica. Además MiCompi también está orientado no solo a ayuda como tal, también a actividades de ocio por ejemplo.</span>
+                     <br><span>Podríamos decir que nuestro producto es un producto independiente y a la vez no. Realmente nuestro sistema sí que es independiente con respecto a otros sistemas informáticos, no depende de aplicaciones externas; pero sí que depende de las personas que lo usan, MiCompi no funciona si no hay ni voluntarios ni personas que pidan ayuda. De la misma manera, también se necesitan personas que organicen eventos.</span>
+                     <br><br><span>
+                        Los stakeholders son:
+                        <ul>
+                           <li><strong>Instituciones administrativas</strong>, que hacen que exista la necesidad de hacer tal proyecto para satisfacer una demanda social.</li>
+                           <li><strong>La gestora</strong>, que asegura que con el proyecto se satisfaga la necesidad solicitada.
+                              Además, tratará de documentar y planificar toda actividad y tareas necesarias para que el equipo de desarrolladores se ponga a desarrollar
+                              </li>
+                           <li><strong>Desarrolladores</strong>, que desea la coincidencia de la funcionalidad realizada con lo que los usuarios, voluntarios y demás stakeholders necesitan</li>
+                           <li><strong>Operador</strong> de telefonía, que mantiene las comunicaciones utilizadas entre los sistemas hardware del sistema</li>
+                        </ul>
+                     </span>
+                     <br><br>
+
+                     <h3>Definiendo el rumbo : Historias de usuario</h3>
+                     <span>Antes de nada, hay que realizar el <strong>Product Backlog</strong>, el cual se prioriza y ordena para luego extraer los <em>Sprint Backlog</em>. Para determinar la prioridad de cada una de las historias de usuario las hemos valorado, en grupo, una a una y democráticamente por mayoría; con un número del 8 al 0, donde 8 tiene la mayor prioridad y 0 la mínima.</span>
+                     <br><span>Se estima que el equipo de trabajo podrá dedicar 20 horas (realizar 10 puntos de historia) a la semana. Debido a que se planean utilizar sprints de dos semanas de duración, se estima una velocidad del equipo de 20 puntos de historia. Igualmente, al final de la iteración, se realizará una reunión de retrospectiva para ver si realmente se ha cumplido esta estimación, y en caso contrario se corregirá. Así que, visto el punto, se estima el esfuerzo a través del Planning Poker para así luego poder subdividir las historias de usuario.</span>
+                     <div style="clear: both;"></div>
+                     <br><br>
+                     <img src="images/Gráfico.png" alt="Grafico de HU" style="float: left;">
+                     <ul style="float: left; font-size: 20px; padding-left: 2%; padding-top: 10%">
+                        <li><strong style="color: salmon;">13</strong>Historias de Prioridad Alta</li>
+                        <li><strong style="color: teal;">7</strong>Historias de Prioridad Media.</li>
+                        <li><strong style="color: purple;">5</strong>Historias de Prioridad Baja.</li>
+                     </ul>
+                     <br><br>
+                     <div style="clear: both;"></div>
+                     <span>Debido a que el proyecto tiene una carga de esfuerzo de 146 puntos de historia y que el equipo de desarrollo tiene una velocidad de 20 puntos de historia por iteración (cada una de duración 2 semanas), se estiman que se podrá realizar el proyecto en cuatro sprints, realizándose una entrega parcial al final de cada dos sprints.</span>
+                     <span>En los dos primeros sprints se desarrollarían las siguientes historias:</span>
+                     <br><br>
+                        <div class="row">
+                           <div class="col-6" style="color: white; background-color: teal">
+                              <h3>Sprint 1</h3>
+                              <ul>
+                                 <li><strong>H.1.</strong>Como voluntario quiero registrarme en el sistema para poder hacer uso de sus funcionalidades en el futuro. <em>Prioridad: 8, Esfuerzo: 5</em></li>
+                                 <li><strong>H.2.</strong> Como voluntario quiero iniciar sesión en el sistema para poder acceder a los distintos servicios proporcionados por el mismo. <em>Prioridad: 8, Esfuerzo: 1</em></li>
+                                 <li><strong>H.3.</strong>Como voluntario quiero cerrar sesión en el sistema para que otros usuarios de mi dispositivo no puedan acceder a mis datos personales. <em>Prioridad: 8, Esfuerzo: 0.5</em></li>
+                                 <li><strong>H.5.</strong> Como voluntario quiero apuntarme a una petición que ha creado un usuario para prestarle ayuda.  <em>Prioridad: 8, Esfuerzo: 8</em></li>
+                                 <li><strong>H.9.</strong> Como solicitante quiero registrarme en el sistema para poder hacer uso de sus funcionalidades en el futuro. <em>Prioridad: 8, Esfuerzo: 1</em></li>
+                                 <li><strong>H.10.</strong> Como solicitante quiero iniciar sesión en el sistema para poder acceder a los distintos servicios proporcionados por el mismo. <em>Prioridad: 8, Esfuerzo: 1</em></li>
+                                 <li><strong>H.11.</strong> Como solicitante quiero cerrar sesión en el sistema para que otros usuarios de mi dispositivo no puedan acceder a mis datos. <em>Prioridad: 8, Esfuerzo: 0.5</em></li>
+                                 <li><strong>H.21.</strong> Como administrador quiero registrarme en el sistema para hacer uso de los servicios proporcionados por el mismo.<em>Prioridad: 8, Esfuerzo: 1</em></li>
+                                 <li><strong>H.23.</strong> Como administrador quiero iniciar sesión en el sistema para poder acceder a las distintas funciones del administrador. <em>Prioridad: 8, Esfuerzo: 1</em></li>
+                                 <li><strong>H.24.</strong> Como administrador quiero registrar un usuario en el sistema para que pueda acceder a los servicios sin necesidad de crearse una cuenta por sí mismo. <em>Prioridad: 8, Esfuerzo: 1</em></li>
+                              </ul>
+                           </div>
+
+                           <div class="col-6" style="color: white; background-color: darkorange">
+                              <h3>Sprint 2</h3>
+                              <ul>
+                                 <li><strong>H.13. </strong>Como solicitante quiero crear una petición en el sistema para que algún voluntario pueda apuntarse y acompañarme.<em>Prioridad: 8, Esfuerzo: 5</em></li>
+                                 <li><strong>H.16. </strong>Como solicitante quiero elegir a un compañero de los que se hayan ofrecido a ayudarme en alguna tarea con la finalidad de seleccionar a la persona que mejor se adapte a mis gustos y necesidades.<em>Prioridad: 8, Esfuerzo: 5</em></li>
+                                 <li><strong>H.25.  </strong>Como administrador quiero incluir las peticiones de un usuario específico para que cualquier voluntario pueda atenderlo.<em>Prioridad: 8, Esfuerzo: 3</em></li>
+                                 <li><strong>H.7. </strong>Como voluntario quiero crear una actividad en grupo para que quien así lo desee pueda apuntarse.<em>Prioridad: 6, Esfuerzo: 5</em></li>
+                                 <li><strong>H.14.</strong>Como solicitante quiero crear una actividad en grupo para que quien así lo desee pueda apuntarse y participar.<em>Prioridad: 6, Esfuerzo: 1</em></li>
+                              </ul>
+                               
+
+                                
+                              
+                              
+                              
+                                
+                              
+                                
+                              
+                           </div>
+                        </div>
+
+                        <br><br>
+                     <h3>Poniéndonos en marcha: Sprints 1 y 2</h3>
                      <br><br>
                   
                   </div>

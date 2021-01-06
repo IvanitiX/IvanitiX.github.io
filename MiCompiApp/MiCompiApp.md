@@ -17,7 +17,15 @@ Para poder hacer uso de sus funciones, se puede hacer uso de la aplicación para
 
 ### La aplicación móvil
 
-(En construcción)
+La app ayuda a manejar todas las funcionalidades del servicio desde la palma de tu mano. 
+
+Los voluntarios pueden ayudar en las peticiones de quienes necesiten ayuda apuntándose a éstos, y ayudar a organizar eventos para la comunidad de la plataforma. Además, pueden llegar a recibir premios por su desinteresada ayuda y por hacer crecer el servicio.
+
+En cuanto a los solicitantes, pueden pedir ayuda a los voluntarios del servicio y decidir quién de ellos viene a ayudarte, y tras ello chatear con este para quedar. En cuanto termine de ayudar, el solicitante puede dar feedback de este para recomendarlo o no en función de como haya prestado la ayuda. Además pueden ayudar a montar actividades de grupo con los voluntarios y pasarlo bien y en compañía.
+
+La administración también puede hacer uso de sus funciones desde la misma app, para poder controlarlo todo en cualquier momento y con la misma experiencia que los demás usuarios de la aplicación y del servicio en general.
+
+
 
 ## Hablemos del desarrollo
 ---
@@ -29,6 +37,8 @@ Para poder hacer uso de sus funciones, se puede hacer uso de la aplicación para
 - **Presentador**: Javier Casado de Amezúa
 
 ### ¿Cómo salió la idea?
+
+
 
 ### MiCompi y las Metodologías Ágiles
 
