@@ -321,7 +321,7 @@
         display: none;
     }
     .carousel-item img {
-        height: 250px;
+        height: 550px;
     }
     .top_layer::before {
         display: none;

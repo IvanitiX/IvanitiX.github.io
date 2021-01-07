@@ -156,7 +156,7 @@ a,
 }
 
 img {
-	max-width: 200%;
+	max-width: 100%;
 	height: auto;
 }
 
@@ -2403,4 +2403,8 @@ ul.contant_icon li img {
 	left: 10px;
 	top: inherit;
 	bottom: 10px;
+}
+
+.cut{
+	overflow-x: hidden;
 }
