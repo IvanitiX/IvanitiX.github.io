@@ -73,11 +73,10 @@
          <div class="carousel-item active">
             <img class="first-slide" src="images/banner2.jpg" alt="First slide">
             <div class="container">
-               <div class="carousel-caption relative">
-                  <h1 style="color: white;">¿Necesitas ayuda? ¿Quieres ayudar a los demás?</h1>
+               <div class="carousel-caption relative" style="padding-bottom: 2%;">
+                  <h2 style="color: white;">¿Necesitas ayuda? ¿Quieres ayudar a los demás?</h2>
                   <p>MiCompi permite que quienes lo necesiten puedan solicitar ayuda, y a quien quiera ayudar puede apuntarse como voluntario. Eventos grupales, peticiones de usuarios... ¿Quieres saber más?</p>
                   <br><br>
-                  <button class="btn btn-info">Leer más</button>
                </div>
             </div>
          </div>
@@ -146,12 +145,12 @@
                </div>
             </div>
             <div class="row">
-               <div class="col-md-12">
+               <div class="col-12">
                   <div id="main_slider" class="carousel slide banner-main" data-ride="carousel">
                      <div class="carousel-inner">
-                        <div class="carousel-item active"> <img class="first-slide" src="images/portada.png" alt="Portada" width="25%"> </div>
-                        <div class="carousel-item"> <img class="second-slide" src="images/menu_ppal.png" alt="Menú principal" width="25%"> </div>
-                        <div class="carousel-item"> <img class="third-slide" src="images/seleccion_vols.png" alt="Selección de voluntarios" width="25%"> </div>
+                        <div class="carousel-item active"> <img class="first-slide" src="images/portada.png" alt="Portada" height="25%"> </div>
+                        <div class="carousel-item"> <img class="second-slide" src="images/menu_ppal.png" alt="Menú principal" height="25%"> </div>
+                        <div class="carousel-item"> <img class="third-slide" src="images/seleccion_vols.png" alt="Selección de voluntarios" height="25%"> </div>
                      </div>
                      <a class="carousel-control-prev" href="#main_slider" role="button" data-slide="prev"> <i class='fa fa-angle-left'></i></a> <a class="carousel-control-next" href="#main_slider" role="button" data-slide="next"> <i class='fa fa-angle-right'></i></a> 
                   </div>
@@ -228,18 +227,20 @@
                      <br><br>
                      <img src="images/Gráfico.png" alt="Grafico de HU" style="float: left;">
                      <ul style="float: left; font-size: 20px; padding-left: 2%; padding-top: 10%">
-                        <li><strong style="color: salmon;">13</strong>Historias de Prioridad Alta</li>
-                        <li><strong style="color: teal;">7</strong>Historias de Prioridad Media.</li>
-                        <li><strong style="color: purple;">5</strong>Historias de Prioridad Baja.</li>
+                        <li><strong style="color: salmon;">13</strong> Historias de Prioridad Alta</li>
+                        <li><strong style="color: teal;">7</strong> Historias de Prioridad Media.</li>
+                        <li><strong style="color: purple;">5</strong> Historias de Prioridad Baja.</li>
                      </ul>
                      <br><br>
                      <div style="clear: both;"></div>
+                     <br><br>
                      <span>Debido a que el proyecto tiene una carga de esfuerzo de 146 puntos de historia y que el equipo de desarrollo tiene una velocidad de 20 puntos de historia por iteración (cada una de duración 2 semanas), se estiman que se podrá realizar el proyecto en cuatro sprints, realizándose una entrega parcial al final de cada dos sprints.</span>
                      <span>En los dos primeros sprints se desarrollarían las siguientes historias:</span>
                      <br><br>
                         <div class="row">
                            <div class="col-6" style="color: white; background-color: teal">
                               <h3>Sprint 1</h3>
+                              <hr style="background-color: white;">
                               <ul>
                                  <li><strong>H.1.</strong>Como voluntario quiero registrarme en el sistema para poder hacer uso de sus funcionalidades en el futuro. <em>Prioridad: 8, Esfuerzo: 5</em></li>
                                  <li><strong>H.2.</strong> Como voluntario quiero iniciar sesión en el sistema para poder acceder a los distintos servicios proporcionados por el mismo. <em>Prioridad: 8, Esfuerzo: 1</em></li>
@@ -256,6 +257,7 @@
 
                            <div class="col-6" style="color: white; background-color: darkorange">
                               <h3>Sprint 2</h3>
+                              <hr style="background-color: white;">
                               <ul>
                                  <li><strong>H.13. </strong>Como solicitante quiero crear una petición en el sistema para que algún voluntario pueda apuntarse y acompañarme.<em>Prioridad: 8, Esfuerzo: 5</em></li>
                                  <li><strong>H.16. </strong>Como solicitante quiero elegir a un compañero de los que se hayan ofrecido a ayudarme en alguna tarea con la finalidad de seleccionar a la persona que mejor se adapte a mis gustos y necesidades.<em>Prioridad: 8, Esfuerzo: 5</em></li>
@@ -263,23 +265,106 @@
                                  <li><strong>H.7. </strong>Como voluntario quiero crear una actividad en grupo para que quien así lo desee pueda apuntarse.<em>Prioridad: 6, Esfuerzo: 5</em></li>
                                  <li><strong>H.14.</strong>Como solicitante quiero crear una actividad en grupo para que quien así lo desee pueda apuntarse y participar.<em>Prioridad: 6, Esfuerzo: 1</em></li>
                               </ul>
-                               
 
-                                
-                              
-                              
-                              
-                                
-                              
-                                
-                              
                            </div>
                         </div>
 
                         <br><br>
                      <h3>Poniéndonos en marcha: Sprints 1 y 2</h3>
+                     <br><span>Como dijimos previamente, el objetivo en este proyecto es hacer un boceto de la aplicación a través de herramientas como JustInMind (que no programarlas), pero también que se pudiera dar un esbozo de como sería la experiencia de usuario.</span>
+                     <br><span>Las estadísticas del primer Sprint son:</span>
+                     <span>
+                        <ul>
+                           <li><strong style="color: teal;">9+1</strong> Historias de Usuario + 1 SPIKE</li>
+                           <li><strong style="color: darkorange;">20</strong> puntos de esfuerzo</li>
+                           <li><strong style="color: darkgray;">27</strong> tareas a realizar</li>
+                           <li><strong style="color: gray;">20</strong> P.H. de velocidad estimada</li>
+                           <li><strong style="color: purple;">1</strong> Historia pospuesta a favor de la nueva historia</li>
+                        </ul>
+                     </span>
+                     <br>
+                     <span>En concreto, la nueva historia encontrada fue:</span>
+                     <div class="col-12" style="color: white; background-color:teal">
+                        <span>
+                           <strong>H.26</strong> Creación del menú principal de la aplicación
+                        </span>
+                     </div>
                      <br><br>
-                  
+                     <span>Y el SPIKE, que fue de carácter técnico funcional:</span>
+                     <div class="col-12" style="color: white; background-color:purple">
+                        <span>
+                           <strong>SPIKE TF-1:</strong> Pantalla de carga de la aplicación.
+                        </span>
+                     </div>
+                     <br><br>
+
+                     <span>El proceso durante el desarrollo fue el siguiente:
+                     <ol>
+                        <li><strong>1. Dividir</strong> la historia de usuario en tareas.</li>
+                        <li><strong>2. Bocetar</strong> las pantallas que se definen en las tareas</li>
+                        <li><strong>3. Prototipar</strong> los bocetos en <em>JustInMind</em> y darle cierta funcionalidad, transiciones...</li>
+                     </ol>
+                  </span>
+                     
+                     <br>
+                     <img src="images/Proceso.png" alt="Proceso del desarrollo">
+
+                     <br><span>El resultado en la aplicación resulta ser el siguiente:</span>
+                     <br><br><br>
+                     <img src="images/Iteracion1.gif" alt="Visualización en Iteracion 1" width="25%">
+                     <br><br>
+
+                     <br><span>En el segundo sprint el proceso ha sido similar, y las estadísticas han sido las siguientes</span>
+                     <span>
+                        <ul>
+                           <li><strong style="color: teal;">5</strong> Historias de Usuario</li>
+                           <li><strong style="color: darkorange;">19</strong> puntos de esfuerzo</li>
+                           <li><strong style="color: darkgray;">15</strong> tareas a realizar</li>
+                           <li><strong style="color: gray;">20</strong> P.H. de velocidad estimada</li>
+                        </ul>
+                     </span>
+                     <br><span>El producto en la segunda iteración queda tal que así:</span>
+                     <br><img src="images/Iteracion2.gif" alt="Visualización en Iteracion 2" width="25%">
+                     <br><br><span>Y además hemos hecho un Burndown Chart que refleja el esfuerzo:</span>
+                     <br><br><img src="images/BurndownChart.gif" alt="Burndown">
+
+
+                     <br>
+                     <br>
+                     <br>
+                     <h3>Ventajas e inconvenientes de emplear Metodologías Ágiles en el proyecto</h3>
+                     <br><span>Para permitir una buena visualización podemos enumerarlos en una tabla:</span>
+                     <br><br>
+                     <div class="row">
+                        <div class="col-6" style="color: white; background-color:forestgreen">
+                           <h3 style="color: white;">Ventajas</h3>
+                           <hr style="background-color: white;">
+                           <ul>
+                              <li>- El trabajo era muy fluido, dándonos tiempo a todo por la planificación</li>
+                              <li>- Nos han ayudado a conocer nuestra capacidad mejor para organizarnos bien en el desarrollo</li>
+                              <li>- Nos ha ayudado a conocernos más entre compañeros de equipo para futuros posibles proyectos</li>
+                              <li>- Los tableros como Trello ayudaban mucho a poder localizar las tareas y notificar cambios en este.</li>
+                           </ul>
+                        </div>
+                        <div class="col-6" style="color: white; background-color:crimson">
+                           <h3 style="color: white;">Inconvenientes</h3>
+                           <hr style="background-color: white;">
+                           <span>La mayoría de los inconvenientes han provenido básicamente de la inexperiencia del equipo, pero que se iban disipando conforme se iban haciendo. Aquí los principales:</span>
+                           <ul>
+                              <li>- La asignación de roles en el grupo fue una tarea que nos resultó algo ambigua puesto que no sabíamos muy bien si el rol que elegíamos era el que mejor se adapta a nosotros o la tarea que teníamos que hacer. </li>
+                              <li> -Al ser una forma de trabajo distinta, nos costó cambiar la mentalidad de hacer un poco de todo y centrarnos en nuestra función según el rol que teníamos</li>
+                              <li>- Aunque conseguimos muchas ideas en el brainstorming, algunas se escapaban del ámbito de esta asignatura o no se ajustaban lo suficiente</li>
+                              <li>- Hubo que echar más tiempo para encontrar los usuarios idóneos para nuestro sistema así como un conjunto de escenarios que sirvieran de ilustración para la utilidad del sistema.</li>
+                              <li>- La velocidad del equipo también fue un punto de duda ya que no teníamos experiencia previa como equipo </li>
+                              <li>-  En el desarrollo de los sprints tuvimos que observar nuestra velocidad y realizar cambios en ella a lo largo de los sprint</li>
+                              <li>- Las reuniones diarias fueron complicadas de organizar debido al estado de pandemia y a ser 5 miembros de distintos lugares.</li>
+                           </ul>
+                        </div>
+
+                        
+                     </div>
+                     <br><br>
+                     <span>En conclusión, la buena comunicación entre los compañeros del equipo y el hecho de ser 5 personas permiten poder usar las Metodologías Ágiles, aumentando la velocidad del trabajo y la fluidez del equipo a la hora de realizar proyectos. </span>
                   </div>
                </div>
             </div>
@@ -295,7 +380,7 @@
                <div class="row">
                   <div class="col-lg-12 col-md-12 col-sm-12 width">
                      <div class="address" style="text-align: center; padding-bottom: 2%">
-                        <span style="color: white;">&copy; 2021 Template creado por <a href="https://html.design/" style="color:chartreuse;">Free html Templates</a>. Página desarrollada por el Grupo 1.2 de Metodologías de Desarrollo Ágil.</span>
+                        <span style="color: white;">&copy; 2021 Template creado por <a href="https://html.design/" style="color:chartreuse;">Free html Templates</a>. Página y proyecto desarrollados por el Grupo 1.2 de Metodologías de Desarrollo Ágil.</span>
                      </div>
                   </div>
                </div>
